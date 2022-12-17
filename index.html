@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creat Div</title>
+    <link rel="icon" href="./img/lightbulb.png">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body id="body" class="lightMode">
+    <div id="darkBtn"><button id="inBtn"></button></div>
+    <div class="heading">
+        <h1>Creat Your Div</h1>
+        <p>You can creat your own div just enter you need</p>
+    </div>
+    <div class="form" id="contain">
+        <div class="inputs">
+            <input id="widthDiv" class="textInput" type="text" placeholder="Enter Width" aria-placeholder="hassan">
+            <input id="heightDiv" class="textInput" type="text" placeholder="Enter Height"><br>
+            <label for="">Choose Color : </label>
+            <select name="colors" id="colors">
+                <option value="red">Red</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+                <option value="yellow">Yellow</option>
+              </select><br>
+            <input id="curve"  class="check" type="checkbox" name="curve">
+            <label for="curve">Curved</label>
+            <input id="border" class="check"  type="checkbox" name="border">
+            <label for="border">Border</label><br>
+            <input class="hide textInput" id="curveValue" type="text" placeholder="Enter Curve value">
+            <input class="hide textInput" id="borderValue" type="text" placeholder="Enter Border value">
+            <button id="conBtn">Confirm</button>
+        </div>
+    </div>
+    <p>Your Div Display Here</p>
+    <div class="hide" id="target">
+        <p id="defult">This is a defult div</p>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
